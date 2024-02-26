@@ -23,4 +23,4 @@ We wrote a set of scripts to use when mapping the library and using it in the ac
 | ATTAGAGTGGTAGTACTGGC | 1 | 248 | thrL |
 | TGGTTGTGGGCAGGCGGGGT | 1 | 16872 | mokC |
 
-When the library is annotated, one is ready to analyze the actual experiments using (*TnSeqW3110.R*)
+When the library is annotated, one is ready to analyze the actual experiments using *barcode.counting.py* to count the abundance of each barcode in the sequencing data, and then *TnSeqW3110.R* to calculate the actual fitness data.
