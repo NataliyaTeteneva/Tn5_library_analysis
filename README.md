@@ -5,10 +5,10 @@ In the transposon mutant libraries pooled mutant strains are marked with randoml
 
 Transposon mutant libraries are useful tools for fitness profiling in bacteria and allow to find out which mutations suppress or stimulate bacterial growth. Here, we introduce such a library for *Escherichia coli* K-12 (substrain W3110 RpoS<sup>+</sup>). The library was created and annotated as described in the following publication:
 
-Wetmore KM, Price MN, Waters RJ, Lamson JS, He J, Hoover CA, et al. Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons. mBio. 2015;6(3):e00306-15.
-https://journals.asm.org/doi/10.1128/mbio.00306-15
+*Wetmore KM, Price MN, Waters RJ, Lamson JS, He J, Hoover CA, et al. Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons. mBio. 2015;6(3):e00306-15.
+https://journals.asm.org/doi/10.1128/mbio.00306-15*
 
-Please refer to this publication for all the details.
+Please refer to this publication for all the methodological details.
 
 We wrote a set of scripts to use when mapping the library and using it in the actual experiments. To start annotating, one needs sequencing results and a good genome annotation of an organism they work with.
 
@@ -24,3 +24,4 @@ We wrote a set of scripts to use when mapping the library and using it in the ac
 | TGGTTGTGGGCAGGCGGGGT | 1 | 16872 | mokC |
 
 When the library is annotated, one is ready to analyze the actual experiments using *barcode.counting.py* to count the abundance of each barcode in the sequencing data, and then *TnSeqW3110.R* to calculate the actual fitness data.
+
