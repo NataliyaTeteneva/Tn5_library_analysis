@@ -20,8 +20,8 @@ After the transposon delivery system was introduced to the cells and the mutants
 
 | seq | direction | position | gene |
 | --- | --- | --- | --- |
-| ATTAGAGTGGTAGTACTGGC | 1 | 248 | thrL |
-| TGGTTGTGGGCAGGCGGGGT | 1 | 16872 | mokC |
+| ATTAGAGTGGTAGTACTGGC | 1 | 248 | *thrL* |
+| TGGTTGTGGGCAGGCGGGGT | 1 | 16872 | *mokC* |
 
 When the library is annotated, one is ready to analyze the actual experiments using *barcode.counting.py* to count the abundance of each barcode in the sequencing data. *barcode.counting.py* relies on the known position of the barcode in the read, and discards the barcodes which were not found in the annotation.
 
